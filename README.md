@@ -1,6 +1,7 @@
 # DevOps Learning Journey
 
-Welcome to your DevOps learning repository! This repository is designed to track your progress as you navigate through various modules of this DevOps bootcamp. It will serve as a central hub for all your notes, labs, and project work. Use this repository template and let's get started on your journey to becoming a DevOps Engineer!
+Welcome to My DevOps Journey!
+Hi there! 👋 I'm a new and aspiring DevOps engineer, currently diving deep into the world of DevOps. This repository will serve as the place where I document my learning, experiments, and projects as I progress on my journey in this field.
 
 ## Initial setup
 
