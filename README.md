@@ -1,7 +1,6 @@
-# DevOps Learning Journey
+# Welcome to My DevOps Journey!
 
-Welcome to My DevOps Journey!
-Hi there! 👋 I'm a new and aspiring DevOps engineer, currently diving deep into the world of DevOps. This repository will serve as the place where I document my learning, experiments, and projects as I progress on my journey in this field.
+Hi there! 👋 I'm a aspiring DevOps engineer, currently diving deep into the world of DevOps. This repository will serve as the place where I document my learning and projects as I progress on my journey in this field.
 
 ## Initial setup
 
