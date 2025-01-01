@@ -7,15 +7,16 @@ ssh wasn't installed by default so we install it using
 sudo apt install openssh-client openssh-server
 ```
 
-Once that was installed, I used the following to ssh into the lab
+Once that was installed, I used the following to ssh into the lab using the provided username 'bandit0' and the port '2220'. The '-p' option is used to specify the port
 
 ```bash
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
 
-I then used the ls command to see what files were present and saw one file called read me. Used the cat command to view the contents
+I then used the ls command to see what files were present and saw one file called read me. Used the 'cat' command which lets us view the contents.
 
 ```bash
 ls
 cat readme
 ```
+The contents had the password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
