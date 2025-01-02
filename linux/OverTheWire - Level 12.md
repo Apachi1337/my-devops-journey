@@ -37,5 +37,10 @@ We check the file again using `file compressed_file` and the file is `gzip` comp
 ```bash
 mv compressed_file compressed_file.gz
 gunzip compressed_file.gz
+```
+Check the file but this time it shows as a POSIX tar archive. I use the following to rename it and extract it using the `tar` command:
+```bash
+	mv compressed_file compressed_file.tar
+	tar -xf compressed_file.tar
 
-Check the f
+```
