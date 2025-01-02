@@ -15,7 +15,7 @@ Use `ls` to see what's available but couldn't see anything.
 I initially used the following command to try and find the location but it was coming back empty:
 
 ```bash
-find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null’ 
+find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null 
 ```
 After banging my head at the wall for an hour or so, i decided to take the size variable `-size 33c` out and just use:
 
