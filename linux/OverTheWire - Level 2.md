@@ -23,3 +23,12 @@ Or you can use the 2nd method which is to put a `\` before every space in the fi
 cat spaces\ in\ this\ filename 
 ```
 
+This outputted the password for Level 3:
+
+```bash
+ MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+```
+Exit the session once done using `exit`
+
+
+
