@@ -28,3 +28,8 @@ The output tells us the file is `gzip` compressed so i used the following comman
 mv compr_file compr_file.gz
 gunzip compr_file.gz
 ````
+Check the file again using `file compressed_file` and it now shows it as `bzip2` compressed. I use the following to rename and decompress using `bunzip2`:
+```bash
+mv compr_file compr_file.bz2
+bunzip2 compr_file.bz2
+````
