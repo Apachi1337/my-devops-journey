@@ -5,7 +5,7 @@ SSH into bandit 19 `bandit19@bandit.labs.overthewire.org -p 2220` using the pass
 ```bash
 cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 ```
-Once logged in, we se a file called `bandit20-do` using `ls`. We then use `ls-l` to check the permissions of the file and the output showed:
+Once logged in, we see a file called `bandit20-do` using `ls`. We then use `ls-l` to check the permissions of the file and the output showed:
 ```bash
 -rwsr-x--- 1 bandit20 bandit19 14880 Sep 19 07:08 bandit20-do
 ```
