@@ -7,3 +7,12 @@ We SSH into level 1 using `bandit1@bandit.labs.overthewire.org -p 2220`. You wil
 ```bash
 ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 ```
+
+Once we are logged in we use the `ls` command to see what files are available in the directory.
+```bash
+ls
+```
+This returned a file called `-`. Since its a `-` file name, I needed to specify the full location of the file used so i used the following command to get the password:
+```bash
+./-
+```
