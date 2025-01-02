@@ -37,3 +37,5 @@ We check the file again using `file compressed_file` and the file is `gzip` comp
 ```bash
 mv compressed_file compressed_file.gz
 gunzip compressed_file.gz
+
+Check the f
