@@ -20,4 +20,14 @@ I then used the ls command to see what files were present and saw one file calle
 ls
 cat readme
 ```
-The contents had the password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+The output was:
+```bash
+Congratulations on your first steps into the bandit game!!
+Please make sure you have read the rules at https://overthewire.org/rules/
+If you are following a course, workshop, walkthrough or other educational activity,
+please inform the instructor about the rules as well and encourage them to
+contribute to the OverTheWire community so we can keep these games free!
+The password you are looking for is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+```
+
+The password for the next level is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
