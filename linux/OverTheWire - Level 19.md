@@ -14,7 +14,7 @@ This meant the file is executable and owned by `bandit20` and that `bandit19` sh
 ```bash
 ./bandit20-do
 ```
-It return:
+It returns:
 ```bash
 Run a command as another user
 ```
