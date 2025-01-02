@@ -17,7 +17,7 @@ Since there are spaces in between the filename, you can either enclose the filen
 ```bash
 cat "spaces in this filename"
 ```
-Or you can use the 2nd method which is to put a `\` before every space in the filename
+Or you can use the 2nd method which is to put a `\` before every space in the filename:
 
 ```bash
 cat spaces\ in\ this\ filename 
