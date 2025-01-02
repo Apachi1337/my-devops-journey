@@ -81,7 +81,18 @@ mv data8.bin data8.bin.gz
 gunzip data8.bin.gz
 ```
 
+We check the file type of `data8.bin` one last time and finally it's identified as a ASCII text. Time to use `cat` to display the contents of the file:
 
+```bash
+cat data8.bin
+```
+
+This outputs our password which was playing hard to get:
+
+```bash
+FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+```
+We then exit the session using `exit`.
 
 
 
