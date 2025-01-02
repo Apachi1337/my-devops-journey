@@ -12,7 +12,7 @@ Once logged in we use the `ls` command to see what files are available in the di
 ```bash
 ls
 ```
-This returned a file called `-`. Since its a `-` file name, I needed to specify the full location of the file used so i used the following command to get the password:
+This returned a file called `-`. Since its a dashed file name, I needed to specify the full location of the file used so i used the following command to get the password:
 ```bash
 ./-
 ```
