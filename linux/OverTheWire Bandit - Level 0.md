@@ -1,4 +1,4 @@
-# OverTheWire Bandit - Level 0 - Level 1
+# OverTheWire Bandit - Level 0 to Level 1
 The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.labs.overthewire.org, on port `2220`. The username is `bandit0` and the password is `bandit0`.
 # Solution
 
