@@ -23,24 +23,69 @@ We then check the file type by using the `file` command:
 ```bash
 file compressed_file
 ````
+
 The output tells us the file is `gzip` compressed so i used the following command to rename it and `gunzip` decompress it since its `gzip` compressed:
 ```bash
 mv compressed_file compressed_file.gz
 gunzip compressed_file.gz
 ````
+
 Check the file again using `file compressed_file` and it now shows it as `bzip2` compressed. I use the following to rename and decompress using `bunzip2`:
 ```bash
 mv compressed_file compressed_file.bz2
 bunzip2 compressed_file.bz2
 ````
+
 We check the file again using `file compressed_file` and the file is `gzip` compressed so i used the following command to rename it and `gunzip` decompress it since its `gzip` compressed:
 ```bash
 mv compressed_file compressed_file.gz
 gunzip compressed_file.gz
 ```
+
 Check the file but this time it shows as a POSIX tar archive. I use the following to rename it and extract it using the `tar` command:
 ```bash
-	mv compressed_file compressed_file.tar
-	tar -xf compressed_file.tar
-
+mv compressed_file compressed_file.tar
+tar -xf compressed_file.tar
 ```
+
+Once the archive is extracted, we check the new file type:
+```bash
+file data5.bin
+```
+
+The file is another POSIX tar archive so we rename it and extract it using `tar` again:
+```bash
+mv data5.bin data5.bin.tar
+tar -xf data5.bin.tar
+```
+
+Check the newly extracted `data6.bin` file and it shows us that its `bzip2` compressed. Rename and use `bunzip2` to decompress it again:
+
+```bash
+mv data6.bin data6.bin.bz2
+bunzip2 data6.bin.bz2
+```
+Check the file and its identified as another POSIX tar archive. Extract and rename it using:
+
+
+```bash
+mv data6.bin data6.bin.tar
+tar -xf data6.bin.tar
+```
+
+After extracting the new file `data8.bin` appears which when checked is a `gzip` file. We rename the `gzip` file and decompress it once again using `gunzip`
+
+
+```bash
+mv data8.bin data8.bin.gz
+gunzip data8.bin.gz
+```
+
+
+
+
+
+
+
+
+
