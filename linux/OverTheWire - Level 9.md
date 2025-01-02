@@ -11,7 +11,7 @@ SSH into bandit 9 `bandit9@bandit.labs.overthewire.org -p 2220` using the passwo
  ```bash
 string data.txt
 ```
-Now we use the following to filter even further and view all human-readable strings that were preceeded by several `=` characters:
+Now we use the following to filter even further and view all human-readable strings that were preceeded by several `===` characters:
 ```bash
 string data.txt | grep “===” 
 ```
