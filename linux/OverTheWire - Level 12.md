@@ -5,7 +5,7 @@ SSH into bandit 12 `bandit12@bandit.labs.overthewire.org -p 2220` using the pass
 ```bash
 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 ```
-Create a new temporary directory using “`mktemp -d` and this generated a temporary directory called `tmp/tmp.aPMy98g4o`. I then copied the data.txt file using:
+Create a new temporary directory using `mktemp -d` and this generated a temporary directory called `tmp/tmp.aPMy98g4o`. I then copied the `data.txt` file using:
 
 ```bash
 ~cp data.txt /tmp/tmp.aPMy98g4o`
@@ -13,4 +13,18 @@ Create a new temporary directory using “`mktemp -d` and this generated a tempo
 and verified it was in that location using:
 ```bash
 ls /tmp/tmp.aPMy98g4o | grep data.txt
+````
+Since the contents of `data.txt` are a hexdump, we use the following to convert it back to binary:
+```bash
+xxd -r data.txt > compressed_file
+````
+We then check the file type by using the `file` command:
+
+```bash
+file compressed_file
+````
+The output tells us the file is `gzip` compressed so i used the following command to rename it and `gunzip` decompress it since its `gzip` compressed:
+```bash
+mv compr_file compr_file.gz
+gunzip compr_file.gz
 ````
