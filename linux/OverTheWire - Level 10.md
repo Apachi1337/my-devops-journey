@@ -17,4 +17,4 @@ This returned the password:
 ```bash
 dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr 
 ```
-We then exit the session using `exit
+We then exit the session using `exit`
