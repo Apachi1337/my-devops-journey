@@ -6,3 +6,29 @@ SSH into bandit 3 `bandit3@bandit.labs.overthewire.org -p 2220` using the passwo
 ```bash
 MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 ```
+
+Use `ls` to see what files are available, this returns a directory called:
+```bash
+inhere
+```
+
+Navigate to it using:
+
+```bash
+cd /home/bandit3/inhere
+```
+Once in the directory, we use the command:
+
+```bash
+ls-a
+```
+This lets us view all files including hidden ones and would you look at that, there's a file called:
+
+```bash
+...Hiding-From-You
+```
+To view the file we use:
+
+```bash
+cat ...Hiding-From-You
+```
