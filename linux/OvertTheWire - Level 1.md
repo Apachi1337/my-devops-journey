@@ -8,7 +8,7 @@ We SSH into level 1 using `bandit1@bandit.labs.overthewire.org -p 2220`. You wil
 ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 ```
 
-Once we are logged in we use the `ls` command to see what files are available in the directory.
+Once logged in we use the `ls` command to see what files are available in the directory.
 ```bash
 ls
 ```
@@ -16,3 +16,8 @@ This returned a file called `-`. Since its a `-` file name, I needed to specify 
 ```bash
 ./-
 ```
+The output:
+```bash
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+```
+Once we have the password, we log out of the session using `exit`
