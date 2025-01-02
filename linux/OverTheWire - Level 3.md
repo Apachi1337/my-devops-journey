@@ -32,3 +32,8 @@ To view the file we use:
 ```bash
 cat ...Hiding-From-You
 ```
+This outputs:
+```bash
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+```
+We then exit the session using `exit`.
