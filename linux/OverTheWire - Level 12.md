@@ -25,11 +25,15 @@ file compressed_file
 ````
 The output tells us the file is `gzip` compressed so i used the following command to rename it and `gunzip` decompress it since its `gzip` compressed:
 ```bash
-mv compr_file compr_file.gz
-gunzip compr_file.gz
+mv compressed_file compressed_file.gz
+gunzip compressed_file.gz
 ````
 Check the file again using `file compressed_file` and it now shows it as `bzip2` compressed. I use the following to rename and decompress using `bunzip2`:
 ```bash
-mv compr_file compr_file.bz2
-bunzip2 compr_file.bz2
+mv compressed_file compressed_file.bz2
+bunzip2 compressed_file.bz2
 ````
+We check the file again using `file compressed_file` and the file is `gzip` compressed so i used the following command to rename it and `gunzip` decompress it since its `gzip` compressed:
+```bash
+mv compressed_file compressed_file.gz
+gunzip compressed_file.gz
