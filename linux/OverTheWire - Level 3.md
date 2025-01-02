@@ -32,7 +32,7 @@ To view the file we use:
 ```bash
 cat ...Hiding-From-You
 ```
-This outputs:
+This outputs the password we were looking for:
 ```bash
 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 ```
