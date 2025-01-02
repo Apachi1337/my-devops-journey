@@ -12,7 +12,7 @@ Once logged in, we see a file called `bandit20-do` using `ls`. We then use `ls-l
 This meant the file is executable and owned by `bandit20` and that `bandit19` should also be able to run it. I then run the following to see what it would return:
 
 ```bash
-./bandit20-do’
+./bandit20-do
 ```
 It return:
 ```bash
