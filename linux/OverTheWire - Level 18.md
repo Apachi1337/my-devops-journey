@@ -11,3 +11,4 @@ This then returned contents of the file which is the password:
 ```bash
 cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 ```
+We then exit the session using `exit`.
