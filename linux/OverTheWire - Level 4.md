@@ -37,4 +37,4 @@ Use `cat` to view the `file07` which returns the password:
 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 ```
 
-Exit the session using `exit`
+Exit the session using `exit`.
