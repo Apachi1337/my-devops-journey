@@ -30,5 +30,10 @@ This outputted the password for Level 3:
 ```
 Exit the session once done using `exit`
 
+# Key Learning Outcomes
+1. Understanding how to navifate directories with special characters, such as spaces, by using escape characters `\`.
+2. Strengthening navigation skills with the cd command to move through directories.
+3. Reinforcing the ability to use ls for locating files and cat for reading their contents.
+
 
 
