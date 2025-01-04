@@ -42,3 +42,4 @@ Exit the session using `exit`.
 # Key Learning Outcomes
 1. How to use the `file` command to inspect and identify file types.
 2. Understanding how to use wildcards `*` for efficient handling of multiple files.
+3. Learning to use the `grep` command to search for specific patterns or strings within files
