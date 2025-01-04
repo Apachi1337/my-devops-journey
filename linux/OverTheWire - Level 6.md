@@ -39,5 +39,7 @@ The outputs:
 morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 ```
 
-# Notes 
-Using `2>/dev/null` is helpfull as it hides the errors that are outputted.
+# Key Learning Outcomes
+1. Reinforcing the need to use `find` command to search for files based on multiple criteria.
+2. Understanding how to specify search conditions such as `-user`, `-group`, and `-size` in `find` for more advanced file searching.
+3. Using `2>/dev/null` is helpfull as it hides the errors that are outputted.
