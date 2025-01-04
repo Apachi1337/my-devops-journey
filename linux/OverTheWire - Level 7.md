@@ -24,3 +24,8 @@ dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 ```
 
 We then exit the session using `exit`.
+
+# Key Learning Outcomes
+1. Developing an approach for searching through large text files to locate keywords or specific phrases.
+2. Understanding how to use the `grep` command to search for specific patterns or text within a file.
+3. Reinforcing the use of `cat` for displaying file contents when locating specific information.
