@@ -21,3 +21,8 @@ The output:
 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 ```
 Once we have the password, we log out of the session using `exit`
+
+# Key Learning Outcomes
+1. Understanding how to manage files with unusual or special characters in their names (e.g. `-`)
+2. Using relative paths `./` to accurately reference files in the current directory.
+3. Reinforcing the usage of `ls` and `cat` for navigation and file reading.
