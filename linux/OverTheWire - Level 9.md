@@ -32,5 +32,9 @@ FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 ```
 
 We then exit the session using `exit`.
+# Key Learning Outcomes
+1. Becoming Familiar with the `grep` command to search for specific patterns within a file.
+2. Learning how to identify and extract human readable strings from binary files using the `strings` command.
+3. Reinforcing the need to have a approach to locate and extract specific content based on patterns and string characteristics.
 
 
