@@ -1,4 +1,4 @@
-# OverTheWire Bandit - Level 3 to Level 4
+# OverTheWire Bandit - Level 10 to Level 11
 The password for this level is stored in the file data.txt, which contains base64 encoded data
 # Solution
 SSH into bandit 10 `bandit10@bandit.labs.overthewire.org -p 2220` using the password from previous level:
