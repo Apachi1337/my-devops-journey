@@ -37,3 +37,8 @@ This outputs the password we were looking for:
 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 ```
 We then exit the session using `exit`.
+
+# Key Learning Outcomes
+1. Improving navigation skills by exploring nestes directories using the `cd` command.
+2. Understanding how to locate hidden files and directories with `ls-a`.
+3. Reinforcing the ability to read file contents using the `cat` command effectively.
