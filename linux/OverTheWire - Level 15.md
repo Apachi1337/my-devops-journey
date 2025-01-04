@@ -42,3 +42,6 @@ Once the correct password is entered, the password for `bandit16` will be return
 kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 ```
 We then exit the session using `exit`.
+# Key Learning Outcome
+1. Gaining an understanding of how SSL/TLS encryption works and how to use openssl `s_client` to securely connect to services over encrypted channels.
+2. Learning how to interact with services that require secure communication using SSL/TLS.
