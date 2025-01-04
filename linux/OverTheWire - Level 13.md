@@ -14,5 +14,4 @@ This command let me use the private key `sshkey.private` to login into the `band
 We then exit the session using `exit`.
 # Key Learning Outcomes
 1. Learning how to use SSH with a private key to securely log into remote systems.
-2. Understanding file permissions and how to set them correctly using `chmod` for security-sensitive files like SSH keys.
-3. Gaining experience with managing SSH keys for authentication instead of traditional passwords.
+2. Gaining experience with managing SSH keys for authentication instead of traditional passwords.
