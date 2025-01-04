@@ -93,7 +93,10 @@ This outputs our password which was playing hard to get:
 FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 ```
 We then exit the session using `exit`.
-
+# Key Learning Outcome
+1. Developing the skill to manage and organize files in directories using commands like `mkdir`, and using `/tmp` for temporary storage in a Linux environment.
+2. Understanding how to work with hexdumps using the `xxd` command to convert between binary data and hexadecimal representations.
+3. Learning how to apply compression tools like `gzip` or `bzip2` to decompress files that have been repeatedly compressed.
 
 
 
