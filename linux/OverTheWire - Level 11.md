@@ -17,5 +17,5 @@ The password is 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 ```
 We then exit the session using `exit`.
 # Key Learning Outcome
-1. Understanding how to use the tr command to apply the ROT13 cipher and decode encrypted text.
+1. Understanding how to use the `tr` command to apply the ROT13 cipher and decode encrypted text.
 2. Developing the ability to manipulate and decode text using simple substitution techniques.
