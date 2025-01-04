@@ -32,7 +32,7 @@ The password you are looking for is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 The password for the next level is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
-# What I've Learned
+# Key Learning Outcomes
 
 1. Importance of `ssh` and how its used to connect securley to remote machines.
 2. Basic navigation and file manipulation using `ls` to list files and `cat` to view contents of a file. 
