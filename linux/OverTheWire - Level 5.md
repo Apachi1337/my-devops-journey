@@ -37,5 +37,7 @@ Exit the session once you retrieve the password for level 6:
 ```bash
 exit
 ```
-
+# Key Learning Outcomes
+1. Understanding how to use the `find` command to search for files based on name or type in a directory(and subdirectories).
+2. Learning how to specify search criteria with options like `-type f` and `- name`.
 
