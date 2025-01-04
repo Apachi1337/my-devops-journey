@@ -18,3 +18,7 @@ This returned the password:
 dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr 
 ```
 We then exit the session using `exit`
+# Key Learning Outcome
+1. Learning how to decode base64-encoded data using the `base64 -d` command.
+2. Using the `cat` command to inspect the encoded data.
+3. Understanding the concept of encoding and decoding in base64, a common technique for data transmissions.
