@@ -12,3 +12,8 @@ This then returned contents of the file which is the password:
 cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 ```
 We then exit the session using `exit`.
+
+# Key Learning Outcomes
+1. Understanding how to use SSH to run a single command on a remote system without triggering a login shell environment.
+2. Learning how you can use the `ssh` command with a single remote command `cat readme`, you can retrieve the password while avoiding the issues caused by the `.bashrc` logout configuration.
+3. Gaining experience in using SSH with custom commands to interact with remote systems securely while avoiding side effects such as automatic logout.
