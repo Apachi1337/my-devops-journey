@@ -38,3 +38,7 @@ Use `cat` to view the `file07` which returns the password:
 ```
 
 Exit the session using `exit`.
+
+# Key Learning Outcomes
+1. How to use the `file` command to inspect and identify file types.
+2. Understanding how to use wildcards `*` for efficient handling of multiple files.
