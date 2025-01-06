@@ -28,6 +28,6 @@ After inputting the correct password, we get the password for `bandit15`
 ```bash
 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 ```
-# Key Learning Outcome
+# Key Learning Outcomes
 1. Understanding how to use `nc` (Netcat) to connect to specific network ports and interact with remote services.
 2. Gaining familiarity with basic networking concepts, such as communicating with services over specific ports.
