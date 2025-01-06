@@ -76,7 +76,7 @@ Log into `bandit17` via ssh
 ```bash
 ssh -i ssh_key17 bandit17@bandit.labs.overthewire.org -p 2220
 ```
-# Key Learing Outcome
+# Key Learing Outcomes
 1. Understanding the use of `echo` in combination with openssl to automate the process of sending data securely.
 2. Learning how to use nc to scan a range of ports and identify which ones have active services running.
 3. Understanding file permissions and how to set them correctly using `chmod` for security-sensitive files like SSH keys.
