@@ -20,7 +20,7 @@ The `diff` command lets us find the difference between the two files. `<` means 
 ```bash
 x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
 ```
-# Key Learning Outcome
+# Key Learning Outcomes
 1. Understanding how to use the `diff` command to compare the contents of two files and identify differences.
 2. Learning how to extract relevant information from a file using `cat` and other tools like `diff` to find specific changes between files.
 3. Gaining experience with basic file comparison techniques, which are important for tasks like identifying changes in logs or configurations.
