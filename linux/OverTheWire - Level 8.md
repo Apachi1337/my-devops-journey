@@ -19,7 +19,7 @@ This outputs the password:
 ```
 We then exit the session using `exit`.
 
-# Key Learning Outcome
+# Key Learning Outcomes
 1. Learning how to use the `sort` command to organize lines in a file alphabetically or numerically.
 2. Understanding that the `uniq` command identifies lines that occur only once.
 3. Gaining the ability to combine multiple commands using the pipe `|` command to filter and find specific content.
