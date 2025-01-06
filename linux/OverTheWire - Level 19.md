@@ -28,3 +28,8 @@ That returns the password:
 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO 
 ```
 We then exit the session using `exit`.
+
+# Key Learning Outcomes
+1. Understanding the concept of of setuid binaries and their ability to execute  with the privileges of the file owner.
+2. Learning how to identify setuid binaries by analyzing file permissions using `ls-l`.
+3. Gaining experience in safely executing setuid binaries to access restricted files or perform privileged actions.
