@@ -43,8 +43,7 @@ echo "Division: $num1 / $num2 = $division"
 1. Takes User Input → Uses read `-p` to get two numbers.
 2. Performs Arithmetic → Uses `$((...))` for addition, subtraction, and multiplication.
 3. Handles Floating-Point Division →
-
-  Bash’s $((...)) only supports integer division (e.g., 5/2 gives 2).
+    --Bash’s $((...)) only supports integer division (e.g., 5/2 gives 2).
     bc (Basic Calculator) is used for precise division.
     scale=2 ensures the result has two decimal places (e.g., 5/2 → 2.50).
     The pipeline echo "scale=2; $num1 / $num2" | bc sends the calculation to bc.
