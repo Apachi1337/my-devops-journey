@@ -56,5 +56,15 @@ fi
    * `-w` → Checks if the file is writable.
   
    * `-x` → Checks if the file is executable.
+---
+
+## Key Bash Commands
+
+* `read -p` → Prompt user input.
+* `-e` → Check if the file exists.
+* `-r` → Check if the file is readable.
+* `-w` → Check if the file is writable.
+* `-x` → Check if the file is executable.
+* `echo` → Print messages.
 
 
