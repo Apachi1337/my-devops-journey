@@ -62,14 +62,14 @@ fi
 
 ## Key Bash Commands
 
-`read -p` → Prompt user input
+* `read -p` → Prompt user input
 
-`-d` → Check if a directory exists
+* `-d` → Check if a directory exists
 
-`mkdir -p` → Create directory if missing
+* `mkdir -p` → Create directory if missing
 
-`cp` → Copy files
+* `cp` → Copy files
 
-`$?` → Check last command status
+* `$?` → Check last command status
 
-`2>/dev/null` → Suppress errors
+* `2>/dev/null` → Suppress errors
