@@ -1,4 +1,4 @@
-# Journey with Bash
+# 🚀 From Windows to Bash – A DevOps Adventure!
 
 Starting my Bash scripting journey has been an interesting shift coming from a Windows background. Bash is a powerful tool that plays a huge role in automation, server management, and general efficiency—especially in DevOps.
 
