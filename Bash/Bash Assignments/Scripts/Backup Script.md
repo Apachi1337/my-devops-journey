@@ -30,7 +30,7 @@ fi
 
 # Create the backup directory if it doesn't exist
 
-if [ ! -d "$src_dir" ]; then
+if [ ! -d "$backup_dir" ]; then
 echo "Creating a backup directory at $backup_dir"
 mkdir -p "$backup_dir"
 fi
@@ -48,35 +48,20 @@ echo "No .txt files found in $src_dir or an error occurred. "
 fi
 ```
 
-## Key Takeaways
+## Key Takeaways from the script
 
-User Input Handling (read -p)
+1. User input:  `(read -p)` - Prompts for the user for a source directory
 
-    The script prompts the user to enter a source directory using read -p.
+2. Directory Check: `([ ! -d "$src_dir" ])` - This checks if the directory exists and exists if it doesn't
 
-Defining Variables (backup_dir)
+3. Backup Directory: `(mkdir -p "$backup_dir")` – Creates the backup directory.
 
-    The script sets up a backup directory by appending /backup to the user-provided source directory.
+4. Copies: `(cp *.txt)` – Copies `.txt` files and errors suppressed by using `(2>/dev/null)`.
 
-Checking Directory Existence ([ ! -d "$src_dir" ])
+5. Check Success: `$?` is used to verify if the copy was successful.
 
-    Uses an if condition with -d to check if the source directory exists.
-    The ! negates the condition, meaning "if the directory does not exist, exit with an error."
 
-Creating a Backup Directory (mkdir -p)
 
-    If the backup directory does not exist, it should be created.
-    Bug Alert! There's an issue in your script: it checks "$src_dir" instead of "$backup_dir" before creating the backup.
-
-Copying Files (cp *.txt)
-
-    The script copies all .txt files from the source directory to the backup directory.
-    2>/dev/null suppresses error messages (e.g., if no .txt files exist).
-
-Checking Command Success ($?)
-
-    $? captures the exit status of the last command.
-    if [ $? -eq 0 ] checks if the cp command was successful and prints an appropriate message.
 
 
 
