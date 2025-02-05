@@ -60,6 +60,15 @@ fi
 
 5. Check Success: `$?` is used to verify if the copy was successful.
 
+## Key Bash Commands
+
+`read -p` → Prompt user input
+`-d` → Check if a directory exists
+`mkdir -p` → Create directory if missing
+`cp` → Copy files
+`$?` → Check last command status
+`2>/dev/null` → Suppress errors
+
 
 
 
