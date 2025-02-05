@@ -52,7 +52,7 @@ echo "Division: $num1 / $num2 = $division"
    
    - The pipeline `echo "scale=2; $num1 / $num2" | bc` sends the calculation to bc.
 
-4. Displays Results → Outputs formatted calculations with echo.
+4. Displays Results → Outputs formatted calculations with `echo`.
 
 ---
 
