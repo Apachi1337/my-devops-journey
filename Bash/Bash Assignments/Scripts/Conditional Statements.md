@@ -44,3 +44,14 @@ fi
 
 
 ```
+
+## Key Takeaways from the Script
+
+1. Takes User Input → Uses read `-p` to prompt for a filename.
+2. Checks File Existence → Uses `[ -e "$filename" ]` to verify if the file exists.
+3. Checks File Permissions →
+       * `-r` → Checks if the file is readable.
+       * `-w` → Checks if the file is writable.
+       * `-x` → Checks if the file is executable.
+
+
