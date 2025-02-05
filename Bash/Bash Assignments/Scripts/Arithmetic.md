@@ -8,7 +8,7 @@ The follwoing script takes two numbers as input from the user and performs basic
 
 ---
 
-## Script code
+## The Scripts code
 
 ```bash
 
@@ -56,12 +56,16 @@ echo "Division: $num1 / $num2 = $division"
 
 ---
 
-## Key Commands
+## Key Bash Commands
 
-`read -p` → Prompt user input
-`$((...))` → Perform integer arithmetic
-`bc` → Handle floating-point math
-`echo` → Print output
+`read -p` → Prompts the user for input
+
+`$((...))` → Performs integer arithmetic
+
+`bc` → Handles floating-point math
+
+`echo` → Prints output
+
 `scale=2` → Sets decimal precision in bc
 
 
