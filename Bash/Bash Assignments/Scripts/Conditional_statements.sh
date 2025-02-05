@@ -4,7 +4,7 @@
 read -p "Enter the file name: " filename
 
 # Check if the file exists
-if [ -e "$filename" ]; then  # Correct spacing
+if [ -e "$filename" ]; then  
     echo "The file '$filename' exists."
 
     # Check if the file is readable
