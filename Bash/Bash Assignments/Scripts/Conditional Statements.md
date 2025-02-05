@@ -3,7 +3,7 @@
 
 ## What does it do?
 
-This script checks if a file exists and prints a message that indicates whether it exists or not. If it does exist, the script will aslo check if the file is readable, writable or executable.
+This script prompts a user for a file name, checks if the file exists and prints a message that indicates whether it exists or not. If it does exist, the script will aslo check if the file is readable, writable or executable.
 
 ---
 ## The Bash Script
