@@ -47,3 +47,46 @@ else
 echo "No .txt files found in $src_dir or an error occurred. "
 fi
 ```
+
+## Key Takeaways
+
+User Input Handling (read -p)
+
+    The script prompts the user to enter a source directory using read -p.
+
+Defining Variables (backup_dir)
+
+    The script sets up a backup directory by appending /backup to the user-provided source directory.
+
+Checking Directory Existence ([ ! -d "$src_dir" ])
+
+    Uses an if condition with -d to check if the source directory exists.
+    The ! negates the condition, meaning "if the directory does not exist, exit with an error."
+
+Creating a Backup Directory (mkdir -p)
+
+    If the backup directory does not exist, it should be created.
+    Bug Alert! There's an issue in your script: it checks "$src_dir" instead of "$backup_dir" before creating the backup.
+
+Copying Files (cp *.txt)
+
+    The script copies all .txt files from the source directory to the backup directory.
+    2>/dev/null suppresses error messages (e.g., if no .txt files exist).
+
+Checking Command Success ($?)
+
+    $? captures the exit status of the last command.
+    if [ $? -eq 0 ] checks if the cp command was successful and prints an appropriate message.
+
+
+
+
+
+
+
+
+
+
+
+
+
