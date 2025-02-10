@@ -3,6 +3,9 @@
 # Prompt the user for a file name
 read -p "Enter the file name: " filename
 
+# removes spaces from filename (prevents issues with accidental spaces)
+filename=$(echo "$filename" | xargs)
+
 # Check if the file exists
 if [ -e "$filename" ]; then  
     echo "The file '$filename' exists."
