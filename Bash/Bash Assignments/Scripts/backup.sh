@@ -1,4 +1,7 @@
-!/bin/bash
+#!/bin/bash
+
+# Get the current timestamp
+timestamp=$(date +"%Y-%m-%d_%H-%M-%S")
 
 # This will prompt the user for the source directory
 
