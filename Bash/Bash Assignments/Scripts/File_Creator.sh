@@ -17,6 +17,12 @@ cd "$dir_name"  || exit
 
 echo "Hello, Aresnal have just beat Man City 5-1 $file_name. " >"$file_name"
 
+# Check if the file was created successfully
+if [ ! -f "$file_name" ]; then
+    echo "Error: Failed to create file '$file_name'."
+    exit 1
+fi
+
 # Displays the contents of the file
 echo "Contents of $file_name:"
 cat "$file_name"
