@@ -16,7 +16,19 @@ This guide walks you through setting up an **NGINX** web server on an **AWS EC2*
 ## 2. **Launch an EC2 Instance**
 1. in the AWS Console, navigate to **EC2 → Launch Instance**.
 2. Configure your instance
-   -  AMI: Select a Linux-based AMI (e.g., Amazon Linux 2 or Ubuntu).
+   -  ****AMI:** Select a Linux-based AMI (e.g., **Amazon Linux 2** or **Ubuntu**).
+   -  **Instance Type:** Start with `t2.micro`.
+   -  **Network Settings:** Ensure **public IP is enabled**
+   -  **Security Group:** Allow **HTTP (port 80)  and SSH (port 22).**
+3. Launch the instance and **download the private key file (`.pem`)** for SSH access.
+---
+
+## 3. **Install NGINX**
+   1. **SSH into your EC2 instance:**
+```bash
+ssh -i your-key.pem ec2-user@your-ec2-public-ip
+
+```
 ---
 
 
