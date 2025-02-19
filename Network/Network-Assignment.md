@@ -48,6 +48,7 @@ sudo apt install nginx -y
 sudo systemctl start nginx
 sudo systemctl enable nginx
 ```
+---
 
 4. **Verify NGINX** is running by accessing your EC2's public IP in a browser:
 ```ccp
@@ -58,7 +59,14 @@ http://<your-ec2-public-ip>
 1. **Add your domain to Cloudfare:**
      - Navigate to **Domains** and add your purchased domain.
      - Update your domain's **nameservers** to Cloudflare's.
-2.  
+2. **Create an A Record:**
+     - Go to **DNS Settings.**
+     - Add an **A record:**
+          - **Name:** `nginx` (for `nginx.yourdomin.com`) or leave blank for the root domain.
+          - **IPv4 Address:** Enter your EC2 instance's public IP.
+     - Save and wait for **DNS Propagation** (this can take few minutes to a few hours).
+  
+
 
 ---
 
