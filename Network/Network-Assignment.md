@@ -4,4 +4,11 @@ This guide walks you through setting up an **NGINX** web server on an **AWS EC2*
 
 ## 1. **Purchase a Domain** 
 ### Using Cloudfare
-      1. 
+1. Sign up or login to Cloudflare.com
+2. Navigate to **Registrar** amd register a domain.
+
+### **Using AWS Route 53**
+1. Login to the [AWS Management Console](https://aws.amazon.com/console/).
+---
+
+
