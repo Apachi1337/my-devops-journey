@@ -14,7 +14,9 @@ This guide walks you through setting up an **NGINX** web server on an **AWS EC2*
 ---
 
 ## 2. **Launch an EC2 Instance**
-
+1. in the AWS Console, navigate to **EC2 → Launch Instance**.
+2. Configure your instance
+   -  AMI: Select a Linux-based AMI (e.g., Amazon Linux 2 or Ubuntu).
 ---
 
 
