@@ -43,14 +43,14 @@ sudo apt update
 sudo apt install nginx -y
 ```
 
-3. Start and enable NGINX to serve webpages:
+3. Start and enable NGINX:
 ```bash
 sudo systemctl start nginx
 sudo systemctl enable nginx
 ```
 
-4. Verify NGINX is running by accessing your EC2's public IP in a browser:
-```bash
+4. **Verify NGINX** is running by accessing your EC2's public IP in a browser:
+```ccp
 http://<your-ec2-public-ip>
 ```
 ---
