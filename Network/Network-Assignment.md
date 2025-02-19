@@ -29,6 +29,12 @@ This guide walks you through setting up an **NGINX** web server on an **AWS EC2*
   ssh -i your-key.pem ec2-user@your-ec2-public-ip
 
   ```
+2. Update the instance and install NGINX:
+   **For Anazon Linux:**
+```bash
+sudo yum update -y
+sudo yum install nginx -y
+```
 ---
 
 
