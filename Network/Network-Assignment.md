@@ -53,6 +53,13 @@ sudo systemctl enable nginx
 ```ccp
 http://<your-ec2-public-ip>
 ```
+
+## 4. **Configure DNS on Cloudflare**
+1. **Add your domain to Cloudfare:**
+     - Navigate to **Domains** and add your purchased domain.
+     - Update your domain's **nameservers** to Cloudflare's.
+2.  
+
 ---
 
 
