@@ -79,4 +79,16 @@ http://<your-ec2-public-ip>
 
 ---
 
+## Troubleshooting
+- **If NGINX is not accessible:**
+     - Verify that **port 80 (HTTP) is open** in your **EC2 security group.**
+     - Check **DNS propagation using [What's My DNS](https://www.whatsmydns.net/).**
+     - Ensure NGINX is running:
+       ```bash
+       sudo systemctl status nginx
+
+       ```
+
+---
+
 
