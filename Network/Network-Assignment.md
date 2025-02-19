@@ -25,10 +25,10 @@ This guide walks you through setting up an **NGINX** web server on an **AWS EC2*
 
 ## 3. **Install NGINX**
    1. **SSH into your EC2 instance:**
-```bash
+  ```bash
   ssh -i your-key.pem ec2-user@your-ec2-public-ip
 
-```
+  ```
 ---
 
 
