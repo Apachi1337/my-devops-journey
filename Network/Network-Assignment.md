@@ -30,6 +30,7 @@ This guide walks you through setting up an **NGINX** web server on an **AWS EC2*
 
   ```
 2. Update the instance and install NGINX:
+   
    **For Anazon Linux:**
 ```bash
 sudo yum update -y
