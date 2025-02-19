@@ -3,5 +3,5 @@
 This guide walks you through setting up an **NGINX** web server on an **AWS EC2** instance and linking it to a **custom domain** registered via **Cloudflare** or **AWS Route 53**.
 
 ## 1. **Purchase a Domain** 
-      ### Using Cloudfare
+### Using Cloudfare
       1. 
