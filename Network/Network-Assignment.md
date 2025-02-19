@@ -35,6 +35,12 @@ This guide walks you through setting up an **NGINX** web server on an **AWS EC2*
 sudo yum update -y
 sudo yum install nginx -y
 ```
+
+   **For Ubuntu**
+   ```bash
+sudo apt update
+sudo apt install nginx -y
+```
 ---
 
 
