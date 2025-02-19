@@ -31,14 +31,14 @@ This guide walks you through setting up an **NGINX** web server on an **AWS EC2*
   ```
 2. Update the instance and install NGINX:
    
-   **For Anazon Linux:**
+**For Amazon Linux:**
 ```bash
 sudo yum update -y
 sudo yum install nginx -y
 ```
 
-   **For Ubuntu**
-   ```bash
+**For Ubuntu:**
+```bash
 sudo apt update
 sudo apt install nginx -y
 ```
