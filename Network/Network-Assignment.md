@@ -73,7 +73,7 @@ http://<your-ec2-public-ip>
   ```bash
   http://nginx.yourdomain.com
   ```
-- You should see the default **NGINX Welcome Page**
+- You should see the default **NGINX Welcome Page:**
 
   ![WhatsApp Image 2025-02-17 at 15 40 53_af516615](https://github.com/user-attachments/assets/7ea241d0-1377-45a4-9551-974b1b63b2fc)
 
