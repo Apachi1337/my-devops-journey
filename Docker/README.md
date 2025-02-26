@@ -34,3 +34,11 @@ The `Dockerfile` is used to build the Docker image for the Flask application. He
    FROM python:3.8-slim
    ```
    - This is specifying what the base image for our Docker will be. We are using Python 3.8 slim. The slim version is used as the image size is reduced.
+  
+2. **Working Directory**
+   ``` bash
+   WORKDIR /app
+   ```
+   - This is setting the working directory inside the container to `/app`.
+  
+3. 
