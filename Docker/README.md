@@ -41,7 +41,7 @@ The `Dockerfile` is used to build the Docker image for the Flask application. He
    ```
    - This is setting the working directory inside the container to `/app`.
   
-3. Copy Application files:
+3. **Copy Application files:**
    ``` dockerfile
    COPY . /app
    ```
