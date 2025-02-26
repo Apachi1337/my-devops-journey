@@ -167,6 +167,6 @@ This script creates a Flask-based web application that connects to a MySQL datab
    However, the fetched version is ignored in the output and doesn't impact what's returned to the user.
 6. **Response**: 
 - The function returns a simple greeting message: `f"Hello, Welcome to Zak's app"`. This is the message that will be displayed when you visit the root URL (`/`).
-7. Running the Application:
+7. **Running the Application**:
   - `if __name__ == '__main__':`: Ensures the app runs only when this script is executed directly.
   - `app.run(host='0.0.0.0', port=5002)`: Starts the Flask app, making it accessible from any IP address (0.0.0.0) on port 5002.
