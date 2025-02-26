@@ -24,3 +24,13 @@ First things first, we need to setup project directory and create the required f
    ``` bash
    touch Dockerfile flask-app-py docker-compose.yml requirements.txt
    ```
+
+# What does Dockerfile do?
+---
+The `Dockerfile` is used to build the Docker image for the Flask application. Here's a breakdown:
+
+1. **Base Image:**
+   ``` bash
+   FROM python:3.8-slim
+   ```
+   - This is specifying what the base image for our Docker will be. We are using Python 3.8 slim. The slim version is used as the image size is reduced.
