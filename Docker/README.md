@@ -111,3 +111,21 @@ mydb:
 - `MYSQL_ROOT_PASSWORD: my-secret-pw`: This sets the root password for the MySQL database to `my-secret-pw`.
 
 
+# What does flask-app.py do?
+---
+The `flask-app.py` file contains the Python code for our Flask web application. This is what it does:
+
+1. **Import Libraries**: `Flask` is imported to create the web application abd `MySQLdb` is imported to interact with the MySQL database.
+2. **Flask Application Setup**: `app = Flask(__name__):` Initializes the Flask app, which allows it to handle HTTP requests.
+3. **Route Definition**: `@app.route('/')`: Defines a route for the root URL `(/)`. When a user visits the root URL, the function `hello_world()` is called.
+4. **Database Connection**:
+   - Inside the `hello_world()` function, the code connects to a MySQL database using the `MySQLdb.connect()` method.
+   - `host="mydb"` specifies the hostname of the MySQL server, which is set to `mydb`.
+   - `user="root"`: Specifies the MySQL root username.
+   - `passwd="my-secret-pw"`: Specifies the root password for MySQL.
+   - `db="mysql"`: Specifies the name of the database to connect to.
+5. **Database Query**
+ - A cursor object (`cur`) is created to interact with the database.
+ - `cur.execute("SELECT VERSION()")`: Executes an SQL query to fetch the MySQL server version.
+ - `version = cur.fetchone()`: Fetches the result of the query (the MySQL version)
+   However, the fetched version is ignored in the output and doesn't impact what's returned to the user.
