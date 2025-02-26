@@ -64,3 +64,11 @@ The `Dockerfile` is used to build the Docker image for the Flask application. He
    EXPOSE 5002
    ```
    - This port 5002 which lets Docker know that the container will be listening on this port during runtime.
+
+6. **Command that runs the Application:**
+
+   ``` dockerfile
+
+   CMD ["python", "app.py"]
+   ```
+   - This specifies the command that will be executed when the container starts.
