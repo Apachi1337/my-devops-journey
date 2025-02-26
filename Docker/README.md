@@ -127,5 +127,5 @@ The `flask-app.py` file contains the Python code for our Flask web application. 
 5. **Database Query**
  - A cursor object (`cur`) is created to interact with the database.
  - `cur.execute("SELECT VERSION()")`: Executes an SQL query to fetch the MySQL server version.
- - `version = cur.fetchone()`: Fetches the result of the query (the MySQL version)
+ - `version = cur.fetchone()`: Fetches the result of the query (the MySQL version).
    However, the fetched version is ignored in the output and doesn't impact what's returned to the user.
