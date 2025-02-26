@@ -76,7 +76,7 @@ The `Dockerfile` is used to build the Docker image for the Flask application. He
 # What does docker-compose.yml do?
 ---
 
-The `docker-compose.yml` file defines and manages the services in our application.
+This `docker-compose.yml` file sets up a basic multi-container application with a Flask app and a database. It defines the services, their dependencies, environment variables, and volumes for data persistence. The inclusion of port mapping on the web-app service allows for direct access to the Flask application from the host machine, enabling initial testing and verification of the application's functionality.
 
 1. Services Definition:
    ``` yaml
@@ -110,6 +110,4 @@ mydb:
 - `environment`: This section defines the containers environment variables. In this case, its setting the MySQL root password.
 - `MYSQL_ROOT_PASSWORD: my-secret-pw`: This sets the root password for the MySQL database to `my-secret-pw`.
 
-## Purpose of the file:
----
-This `docker-compose.yml` file sets up a basic multi-container application with a Flask app and a database. It defines the services, their dependencies, environment variables, and volumes for data persistence. The inclusion of port mapping on the web-app service allows for direct access to the Flask application from the host machine, enabling initial testing and verification of the application's functionality.
+
