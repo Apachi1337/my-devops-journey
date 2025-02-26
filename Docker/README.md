@@ -113,7 +113,43 @@ mydb:
 
 # What does flask-app.py do?
 ---
-The `flask-app.py` file contains the Python code for our Flask web application. This is what it does:
+This Python code creates a simple web application using **Flask**, a lightweight web framework, and connects to a **MySQL** database using the `MySQLdb` library. Here's what the code does:
+
+### Breakdown of the code:
+
+1. **Imports**:
+   - `Flask` is imported to create the web application.
+   - `MySQLdb` is imported to interact with the MySQL database.
+
+2. **Flask Application Setup**:
+   - `app = Flask(__name__)`: Initializes the Flask app, which allows it to handle HTTP requests.
+
+3. **Route Definition**:
+   - `@app.route('/')`: Defines a route for the root URL (`/`). When a user visits the root URL, the function `hello_world()` is called.
+
+4. **Database Connection**:
+   - Inside the `hello_world()` function, the code connects to a MySQL database using the `MySQLdb.connect()` method.
+   - `host="mydb"` specifies the hostname of the MySQL server, which is set to `mydb` (likely the name of the MySQL container or service defined in a Docker Compose setup).
+   - `user="root"`: Specifies the MySQL root username.
+   - `passwd="my-secret-pw"`: Specifies the root password for MySQL.
+   - `db="mysql"`: Specifies the name of the database to connect to.
+
+5. **Database Query**:
+   - A cursor object (`cur`) is created to interact with the database.
+   - `cur.execute("SELECT VERSION()")`: Executes an SQL query to fetch the MySQL server version.
+   - `version = cur.fetchone()`: Fetches the result of the query (the MySQL version).
+   
+   However, the fetched version is not used in the output, and this part doesn't impact the response that is returned to the user.
+
+6. **Response**:
+   - The function returns a simple greeting message: `f"Hello, Welcome to Zak's app"`. This is the message that will be displayed when you visit the root URL (`/`).
+
+7. **Running the Application**:
+   - `if __name__ == '__main__':`: Ensures the app runs only when this script is executed directly (not when it's imported as a module).
+   - `app.run(host='0.0.0.0', port=5002)`: Starts the Flask app, making it accessible from any IP address (`0.0.0.0`) on port `5002`.
+
+### Summary:
+This script creates a Flask-based web application that connects to a MySQL database. When a user accesses the root URL (`/`), the server responds with a simple greeting message. Although the database connection and query are established, the fetched version of MySQL is not used in the response. The application is set to run on port `5002` and is accessible externally due to the host being set to `0.0.0.0`.
 
 1. **Import Libraries**: `Flask` is imported to create the web application abd `MySQLdb` is imported to interact with the MySQL database.
 2. **Flask Application Setup**: `app = Flask(__name__):` Initializes the Flask app, which allows it to handle HTTP requests.
@@ -129,3 +165,8 @@ The `flask-app.py` file contains the Python code for our Flask web application. 
  - `cur.execute("SELECT VERSION()")`: Executes an SQL query to fetch the MySQL server version.
  - `version = cur.fetchone()`: Fetches the result of the query (the MySQL version).
    However, the fetched version is ignored in the output and doesn't impact what's returned to the user.
+6. **Response**: 
+- The function returns a simple greeting message: `f"Hello, Welcome to Zak's app"`. This is the message that will be displayed when you visit the root URL (`/`).
+7. Running the Application:
+  - `if __name__ == '__main__':`: Ensures the app runs only when this script is executed directly.
+  - `app.run(host='0.0.0.0', port=5002)`: Starts the Flask app, making it accessible from any IP address (0.0.0.0) on port 5002.
