@@ -41,7 +41,14 @@ The `Dockerfile` is used to build the Docker image for the Flask application. He
    ```
    - This is setting the working directory inside the container to `/app`.
   
-3. **Install dependencies:**
+3. Copy Application files:
+   ``` bash
+   COPY . /app
+   ```
+   - Copies all files and directories from the current directory to the `/app` directory inside the container. This includes your `flask-app.py` and any other files that are needed.
+   - 
+  
+4. **Install dependencies:**
    ``` bash
    RUN pip install --no-cache-dir -r requirements.txt
    ```
