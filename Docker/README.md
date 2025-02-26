@@ -72,3 +72,13 @@ The `Dockerfile` is used to build the Docker image for the Flask application. He
    CMD ["python", "app.py"]
    ```
    - This specifies the command that will be executed when the container starts.
+
+# What does docker-compose.yml do?
+---
+
+The `docker-compose.yml` file defines and manages the services in our application.
+
+1. Services Definition:
+   ``` yaml
+   services:
+   ```
