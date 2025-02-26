@@ -14,7 +14,7 @@ First things first, we need to setup project directory and create the required f
 
 2. **Create Files:**
 
-   Creat the following files in your directory
+   Create the following files in your directory
    - `Dockerfile`
    - `flask-app.py`
    - `docker-compose.yml`
@@ -41,4 +41,13 @@ The `Dockerfile` is used to build the Docker image for the Flask application. He
    ```
    - This is setting the working directory inside the container to `/app`.
   
-3. 
+3. **Install dependencies:**
+   ``` bash
+   RUN pip install --no-cache-dir -r requirements.txt
+   ```
+   ``` bash
+    RUN apt-get update && \
+    apt-get install -y pkg-config libmariadb-dev build-essential && \
+    rm -rf /var/lib/apt/lists/*
+   ```
+   - The first run command uses `pip` which is the Python package installer to install the Flask libraries. The 2nd run command is for installing the dependencies needed for our `mysqlclient`. I kept running into issues before where the database would not build properly so this fixes that problem.
