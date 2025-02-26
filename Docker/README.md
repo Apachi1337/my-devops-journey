@@ -84,7 +84,7 @@ The `docker-compose.yml` file defines and manages the services in our applicatio
    ```
    - This section defines the containers (or services) that are part of the application.
   
-2. Flask App Service (`web-app`):
+2. **Flask App Service** (`web-app`):
    ``` yaml
    web:
     build: .
@@ -97,3 +97,15 @@ The `docker-compose.yml` file defines and manages the services in our applicatio
     environment:
       MYSQL_ROOT_PASSWORD: my-secret-pw
       ```
+   - `web-app`: Name of our Flask application service
+   - `build: .`: Tells Docker Compose to build the image for this service using the `Dockerfile` in the current directory.
+   - `ports: - 5002:5002`: Maps port 5002 on the host machine to port 5002 in the container. This means you can access the app from your browser.
+   - `depends_on - mydb`: This indicated that the `web` services depends on the `mydb` services, so the `mydb` service will be started before the `web` service. 
+
+```  yaml
+mydb:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: my-secret-pw
+```
+- 
