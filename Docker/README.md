@@ -106,8 +106,8 @@ mydb:
       MYSQL_ROOT_PASSWORD: my-secret-pw
 ```
 - `mydb`: The `mydb` service represents a container.
-       - `image: mysql:5.7`: This specifies that the `mydb` service will use the official MySQL Docker image version `5.7.`
-       - `environment`: This section defines the containers environment variables. In this case, its setting the MySQL root password.
-            - `MYSQL_ROOT_PASSWORD: my-secret-pw`: This sets the root password for the MySQL database to `my-secret-pw`.
+- `image: mysql:5.7`: This specifies that the `mydb` service will use the official MySQL Docker image version `5.7.`
+- `environment`: This section defines the containers environment variables. In this case, its setting the MySQL root password.
+- `MYSQL_ROOT_PASSWORD: my-secret-pw`: This sets the root password for the MySQL database to `my-secret-pw`.
 
   
