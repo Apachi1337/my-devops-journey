@@ -11,3 +11,16 @@ First things first, we need to setup project directory and create the required f
      ``` bash
      mkdir Docker/hello_flask
      cd Docker/hello_flask
+
+2. **Create Files:**
+
+   Creat the following files in your directory
+   - `Dockerfile`
+   - `flask-app.py`
+   - `docker-compose.yml`
+   - `requirements.txt`
+  
+   These files can be created using the touch command:
+   ``` bash
+   touch Dockerfile flask-app-py docker-compose.yml requirements.txt
+   ```
