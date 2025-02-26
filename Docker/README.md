@@ -82,3 +82,18 @@ The `docker-compose.yml` file defines and manages the services in our applicatio
    ``` yaml
    services:
    ```
+   - This section defines the containers (or services) that are part of the application.
+  
+2. Flask App Service (`web-app`):
+   ``` yaml
+   web:
+    build: .
+    ports:
+      - "5002:5002"
+    depends_on:
+      - mydb
+    mydb:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: my-secret-pw
+      ```
