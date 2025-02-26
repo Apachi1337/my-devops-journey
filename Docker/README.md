@@ -92,10 +92,7 @@ The `docker-compose.yml` file defines and manages the services in our applicatio
       - "5002:5002"
     depends_on:
       - mydb
-    mydb:
-    image: mysql:5.7
-    environment:
-      MYSQL_ROOT_PASSWORD: my-secret-pw
+   
       ```
    - `web-app`: Name of our Flask application service
    - `build: .`: Tells Docker Compose to build the image for this service using the `Dockerfile` in the current directory.
@@ -108,4 +105,9 @@ mydb:
     environment:
       MYSQL_ROOT_PASSWORD: my-secret-pw
 ```
-- 
+- `mydb`: The `mydb` service represents a container.
+       - `image: mysql:5.7`: This specifies that the `mydb` service will use the official MySQL Docker image version `5.7.`
+       - `environment`: This section defines the containers environment variables. In this case, its setting the MySQL root password.
+            - `MYSQL_ROOT_PASSWORD: my-secret-pw`: This sets the root password for the MySQL database to `my-secret-pw`.
+
+  
