@@ -170,3 +170,7 @@ This script creates a Flask-based web application that connects to a MySQL datab
 7. **Running the Application**:
   - `if __name__ == '__main__':`: Ensures the app runs only when this script is executed directly.
   - `app.run(host='0.0.0.0', port=5002)`: Starts the Flask app, making it accessible from any IP address (0.0.0.0) on port 5002.
+ 
+# Requirements.txt file
+---
+All this file does is it makes sure the dependencies are all running on specific versions so that the correct libraries can be imported.
